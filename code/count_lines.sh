@@ -1,2 +1,2 @@
-touch line_count.txt
+echo '' > line_count.txt
 wc -l $* >> line_count.txt
